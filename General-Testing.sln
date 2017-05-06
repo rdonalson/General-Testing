@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular2Testing", "Angular2Testing\Angular2Testing.csproj", "{B0AF6A03-373D-4728-9A2B-B88A8D505D26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B42401B7-1C08-404B-B561-0EAD04DF10F9}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Create Schema and Data for Angular2Testing.sql = Solution Items\Create Schema and Data for Angular2Testing.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0AF6A03-373D-4728-9A2B-B88A8D505D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AF6A03-373D-4728-9A2B-B88A8D505D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AF6A03-373D-4728-9A2B-B88A8D505D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AF6A03-373D-4728-9A2B-B88A8D505D26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

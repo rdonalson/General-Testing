@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Item Detail";
+}
+<script>
+    System.import('../Areas/ItemDetail/Scripts/IDHome/main').catch(function(err) {
+        console.error(err);
+    });
+</script>
+<id-app>Loading...</id-app>
+<div class="navbar-collapse collapse">
+    <ul class="nav nav-pills nav-stacked">
+        <li>@Html.ActionLink("ID Home", "Index", "IdHome")</li>
+        @*<li>@Html.ActionLink("Credits", "Index", "Credits")</li>
+        <li>@Html.ActionLink("Debits", "Index", "Debits")</li>*@
+        <li>@Html.ActionLink("Initial Amount", "Index", "InitialAmount")</li>
+        <li>@Html.ActionLink("Tester", "Index", "Tester")</li>
+    </ul>
+</div>

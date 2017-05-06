@@ -1,0 +1,36 @@
+﻿<h3>{{ title }}</h3>
+<div>
+    <button class="btn btn-primary btn-xs glyphicon glyphicon-plus" (click)="createInitialAmount()"></button>
+</div>
+<br/>
+<!-- Error (if any) -->
+<common-alert [errorMessage]="errorMessage"></common-alert>
+
+
+<div class="panel panel-primary" *ngIf="showInitialAmount && initialAmounts">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>Amount</th>
+                <th>Begin Date</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let initialAmount of initialAmounts">
+                <td>
+                    <div>
+                        <button class="btn btn-primary btn-xs glyphicon glyphicon-edit"
+                                (click)="editInitialAmount(initialAmount)"></button>
+                        &nbsp;
+                        <button class="btn btn-danger btn-xs glyphicon glyphicon-trash"></button>
+                    </div>
+                </td>
+                <td>{{ initialAmount.Amount | currency:'USD':true }}</td>
+                <td>{{ initialAmount.BeginDate | date }}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

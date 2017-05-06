@@ -1,0 +1,13 @@
+﻿{
+  "globalDependencies": {
+    "bootstrap": "registry:dt/bootstrap#3.3.5+20160726204056",
+    "core-js": "registry:dt/core-js#0.9.7+20161130133742",
+    "jasmine": "registry:dt/jasmine#2.5.0+20161119044246",
+    "jquery": "registry:dt/jquery#1.10.0+20161119044246",
+    "jqueryui": "registry:dt/jqueryui#1.11.0+20161214061125",
+    "node": "registry:dt/node#6.0.0+20170106143713"
+  },
+  "dependencies": {
+    "lodash": "registry:npm/lodash#4.0.0+20160416211519"
+  }
+}
