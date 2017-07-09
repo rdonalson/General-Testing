@@ -8,11 +8,11 @@ This is a hybrid application with MVC5 and Angular 2 with an OData Api. Regular 
 [Authorize]  
 public class IdHomeController : Controller  
 {  
-    // GET: ItemDetail/IdHome  
-     public ActionResult Index()  
-     {  
-         return View();  
-     }      
+        // GET: ItemDetail/IdHome  
+        public ActionResult Index()  
+        {  
+                 return View();  
+        }      
 }    
 
 Then you're in it's NG2 SPA. The same for InitialAmount & Tester ControllersLogin Instructions: Create your own login by registeringAfter logging go to “Item Detail” and then “Initial Amount”. Once there create some records, then you can edit or delete them.
