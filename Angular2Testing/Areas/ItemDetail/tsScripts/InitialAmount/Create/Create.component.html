@@ -1,6 +1,54 @@
-﻿<h3>{{ name }}</h3>
-<div>
+﻿<h3>{{ title }}</h3>
+
+<!-- Error (if any) -->
+<common-alert [errorMessage]="errorMessage"></common-alert>
+
+<div class="panel-body">
+    <div class="row">
+        <div class="col-md-6">
+            <form (ngSubmit)="onUpdate()" #initialAmountForm="ngForm">
+                <div class="form-group">
+                    <label for="Amount">Amount</label>
+                    <input type="text" class="form-control" id="Amount" required
+                           myCurrencyFormatter
+                           [ngModel]="initialAmountVm.Amount"
+                           (ngModelChange)="changeModel($event)"
+                           name="Amount"
+                           #name="ngModel">
+                </div>
+                <div class="form-group">
+                    <label for="BeginDate">Begin Date</label>
+                    <input type="date" class="form-control" id="BeginDate" required
+                           [(ngModel)]="initialAmountVm.BeginDate"
+                           name="BeginDate"
+                           #name="ngModel" />
+                </div>
+                <div>
+                    <button id="Submit" name="Submit" type="submit" class="btn btn-default "
+                            disabled="disabled">
+                        Submit
+                    </button>
+                    <button id="Cancel" name="Cancel" class="btn btn-primary"
+                            (click)="listInitialAmount()">
+                        Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="alert alert-danger" role="alert" *ngIf="validationMessage">
+    <alert type="alert">{{ validationMessage }}</alert>
+</div>
+
+
+
+
+
+
+
+<!--<div>
     <button class="btn btn-primary" (click)="listInitialAmount()">Return</button>
 </div>
-<br/>
+<br/>-->
 <!--<id-alert>Loading...</id-alert>-->

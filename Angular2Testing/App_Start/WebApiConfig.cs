@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
+﻿using System.Web.Http;
 using System.Web.Http.OData.Builder;
 using System.Web.Http.OData.Extensions;
-using QuickStart3.Data;
+using Angular2Testing.Data;
 
-namespace QuickStart3
+namespace Angular2Testing
 {
     public static class WebApiConfig
     {

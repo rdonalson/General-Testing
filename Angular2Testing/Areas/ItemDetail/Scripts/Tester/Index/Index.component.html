@@ -1,0 +1,19 @@
+<h3>{{ title }}</h3>
+<div>
+    <button class="btn btn-primary btn-xs" (click)="testReplaceCharacters()">Run</button>
+</div>
+<br/>
+
+<div>
+    <h2>Hello {{name}}</h2>
+    <span class="fieldname" myHighlight >Your balance is</span>: {{ balanceAmount | myCurrency }}
+    <br />
+    <input type="text" [ngModel]="balanceAmount" myCurrencyFormatter
+           (ngModelChange)="changeModel($event)" />
+</div>
+<ngbd-datepicker-popup></ngbd-datepicker-popup>
+
+<common-alert [errorMessage]="errorMessage" ></common-alert>
+
+
+

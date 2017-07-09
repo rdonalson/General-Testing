@@ -40,7 +40,7 @@ import { NgbdDatepickerPopup } from '../Shared/Common/Datepicker-popup';
         ,NgbdDatepickerPopup
     ],
     providers: [
-        Common,
+        Common
         ,MyCurrencyPipe
         ,{ provide: APP_BASE_HREF, useValue: "/ItemDetail/Tester" }
     ],

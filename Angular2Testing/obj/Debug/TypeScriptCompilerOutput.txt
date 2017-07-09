@@ -1,9 +1,183 @@
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.component.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.component.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.module.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.module.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\main.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\main.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Util\Common.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Util\Common.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Pipes\my-currency.pipe.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Pipes\my-currency.pipe.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-currency-formatter.directive.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-currency-formatter.directive.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Datepicker-popup.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Datepicker-popup.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Alert.Component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Alert.Component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\Index\Index.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\Index\Index.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\routing.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\routing.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-highlight.directive.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-highlight.directive.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\shared.module.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\shared.module.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.module.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.module.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\main.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\main.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\DataStorage.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\DataStorage.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmount.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmount.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Services\InitialAmount.service.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Services\InitialAmount.service.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Index\Index.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Index\Index.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmountVm.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmountVm.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Create\Create.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Create\Create.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Edit\Edit.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Edit\Edit.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\routing.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\routing.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.module.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.module.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\main.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\main.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.module.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.module.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\main.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\main.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Util\Common.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Util\Common.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Pipes\my-currency.pipe.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Pipes\my-currency.pipe.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-currency-formatter.directive.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-currency-formatter.directive.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Datepicker-popup.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Datepicker-popup.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Alert.Component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Alert.Component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\Index\Index.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\Index\Index.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\routing.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\routing.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-highlight.directive.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-highlight.directive.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\shared.module.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\shared.module.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.module.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.module.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\main.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\main.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\DataStorage.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\DataStorage.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmount.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmount.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Services\InitialAmount.service.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Services\InitialAmount.service.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Index\Index.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Index\Index.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmountVm.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmountVm.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Create\Create.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Create\Create.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Edit\Edit.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Edit\Edit.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\routing.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\routing.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.module.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.module.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\main.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\main.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.module.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.module.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\main.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\main.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Util\Common.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Util\Common.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Pipes\my-currency.pipe.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Pipes\my-currency.pipe.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-currency-formatter.directive.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-currency-formatter.directive.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Datepicker-popup.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Datepicker-popup.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Alert.Component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Alert.Component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\Index\Index.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\Index\Index.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\routing.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\routing.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-highlight.directive.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-highlight.directive.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\shared.module.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\shared.module.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.module.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.module.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\main.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\main.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\DataStorage.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\DataStorage.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmount.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmount.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Services\InitialAmount.service.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Services\InitialAmount.service.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Index\Index.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Index\Index.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmountVm.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmountVm.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Create\Create.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Create\Create.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Edit\Edit.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Edit\Edit.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\routing.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\routing.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.module.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.module.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\main.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\main.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.component.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.component.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.module.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.module.js.map
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\main.js
+C:\Users\cnf4kkr\Desktop\New Development\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\main.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.component.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.component.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Util\Common.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Util\Common.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Pipes\my-currency.pipe.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Pipes\my-currency.pipe.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-currency-formatter.directive.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-currency-formatter.directive.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Datepicker-popup.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Datepicker-popup.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Alert.Component.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Alert.Component.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\Index\Index.component.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\Index\Index.component.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\routing.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\routing.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-highlight.directive.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-highlight.directive.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\shared.module.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\shared.module.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.module.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.module.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\main.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\main.js.map
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.component.js
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.component.js.map
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\DataStorage.js
@@ -14,39 +188,21 @@ C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\S
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Services\InitialAmount.service.js.map
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Index\Index.component.js
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Index\Index.component.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Create\Create.component.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Create\Create.component.js.map
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmountVm.js
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Models\InitialAmountVm.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Util\Common.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Util\Common.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Pipes\my-currency.pipe.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Pipes\my-currency.pipe.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Create\Create.component.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Create\Create.component.js.map
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Edit\Edit.component.js
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\Edit\Edit.component.js.map
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\routing.js
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\routing.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Alert.component.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Alert.component.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-currency-formatter.directive.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-currency-formatter.directive.js.map
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.module.js
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\app.module.js.map
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\main.js
 C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\InitialAmount\main.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Datepicker-popup.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Common\Datepicker-popup.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-highlight.directive.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Shared\Directives\my-highlight.directive.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.component.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.component.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\Index\Index.component.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\Index\Index.component.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\routing.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\routing.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\shared.module.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\shared.module.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.module.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\app.module.js.map
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\main.js
-C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\Tester\main.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.component.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.component.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.module.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\Index.module.js.map
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\main.js
+C:\Users\cnf4kkr\Source\Repos\General-Testing\Angular2Testing\Areas\ItemDetail\Scripts\IDHome\main.js.map

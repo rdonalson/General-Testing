@@ -1,10 +1,7 @@
-namespace QuickStart3.Data
-{
-    using System;
-    using System.Data.Entity;
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.Linq;
+using System.Data.Entity;
 
+namespace Angular2Testing.Data
+{
     public partial class Entity : DbContext
     {
         public Entity() : base(Properties.Settings.Default.DefaultConnection)

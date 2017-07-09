@@ -11,24 +11,26 @@ import { Common } from "../../Shared/Util/Common";
 import { MyCurrencyFormatterDirective } from "../../Shared/Directives/my-currency-formatter.directive";
 import { MyCurrencyPipe } from "../../Shared/Pipes/my-currency.pipe";
 import { NgbdDatepickerPopup } from '../../Shared/Common/Datepicker-popup';
+import { AlertComponent } from '../../Shared/Common/Alert.Component';
 
 
 @Component({
     moduleId: module.id,
-    selector: "id-tester",
-    templateUrl: "../../../tsScripts/Tester/Index/Index.component.html"
+    selector: 'id-tester',
+    templateUrl: 'Index.component.html'
 })
 export class TesterComponent implements OnInit, OnDestroy {
     private title = "Tester";
     name: string;
     balanceAmount: string;
     private errorMessage: string;
-    //private alertComponent: AlertComponent;
+    private alertComponent: AlertComponent;
 
     constructor(
         private common: Common,
         private readonly router: Router,
         private mycurpipe: MyCurrencyPipe
+        
     ) {
         this.name = 'Martin';
         this.balanceAmount = this.mycurpipe.transform("1234567.89");

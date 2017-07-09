@@ -1,16 +1,13 @@
-﻿using System;
-using System.Globalization;
-using System.Linq;
-using System.Security.Claims;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using Angular2Testing.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using QuickStart3.Models;
 
-namespace QuickStart3.Controllers
+namespace Angular2Testing.Controllers
 {
     [Authorize]
     public class AccountController : Controller

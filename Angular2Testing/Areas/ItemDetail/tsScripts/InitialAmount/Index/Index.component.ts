@@ -13,11 +13,13 @@ import { Router, ActivatedRoute } from "@angular/router";
 import { DataStorage } from "../Models/DataStorage";
 import { IInitialAmount } from "../Models/InitialAmount";
 import { InitialAmountService } from "../Services/InitialAmount.service";
+import { AlertComponent } from '../../Shared/Common/Alert.Component';
 
 @Component({
     moduleId: module.id,
     selector: "id-initialAmounts",
     templateUrl: "../../../tsScripts/InitialAmount/Index/Index.component.html"
+    //templateUrl: "Index.component.html"
 })
 export class InitialAmountComponent implements OnInit, OnDestroy {
     private title = "Initial Amount";
@@ -28,11 +30,12 @@ export class InitialAmountComponent implements OnInit, OnDestroy {
     private static pass: boolean = true;
     private refresh: any;
     private paramsSub: any;
+    private alertComponent: AlertComponent;
 
     constructor(
         private initialAmountService: InitialAmountService
         ,private readonly router: Router
-        , private activatedRoute: ActivatedRoute,
+        ,private activatedRoute: ActivatedRoute,
         private data: DataStorage
     ) {
         // Only show is user is logged in
@@ -65,6 +68,19 @@ export class InitialAmountComponent implements OnInit, OnDestroy {
         this.showInitialAmount = true;
     }
 
+    // ** Called when the Delte button is pressed **
+    deleteProduct(initialAmount: IInitialAmount) {
+      /* Diagnostic */
+      //console.log("initialAmount: " + JSON.stringify(initialAmount));
+      // Call the service to delete the Product
+      this.initialAmountService.deleteInitialAmount(initialAmount.PkID)
+      .subscribe(() => {
+          // Refresh list - Get InitialAmounts
+          this.getInitialAmounts();
+        },
+        error => this.errorMessage = <any>error);
+    }
+
     // ** Called when the Create button is pressed **
     editInitialAmount(initialAmount: IInitialAmount) {
         // To Create Initial Amount
@@ -80,7 +96,5 @@ export class InitialAmountComponent implements OnInit, OnDestroy {
         this.router.navigate(["Create"]);
     }
 
-    ngOnDestroy() {
-
-    }
+    ngOnDestroy() {}
 }

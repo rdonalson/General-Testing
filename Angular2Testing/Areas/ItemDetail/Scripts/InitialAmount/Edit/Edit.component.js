@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 /// ===========================================================================================
 /// Edit Initial Amount Component
 /// ===========================================================================================
@@ -72,27 +73,6 @@ var InitialAmountEditComponent = (function () {
         /** --------------------------------------------------------------------
          *  Begin Date validation and value prep
          ----------------------------------------------------------------------*/
-        //this.txtAmount.autoNumeric("init",
-        //{
-        //    currencySymbol: "$"
-        //}).mouseleave(() => {
-        //    parent.processAmount(
-        //        regexAmountValidate,
-        //        regexAmountCharReplace,
-        //        parent.initAmountValue,
-        //        parent
-        //    );
-        //}).blur(() => {
-        //    parent.processAmount(
-        //        regexAmountValidate,
-        //        regexAmountCharReplace,
-        //        parent.initAmountValue,
-        //        parent
-        //    );
-        //});
-        /** --------------------------------------------------------------------
-         *  Begin Date validation and value prep
-         ----------------------------------------------------------------------*/
         this.txtBeginDate.datepicker({
             changeMonth: true,
             changeYear: true
@@ -112,23 +92,11 @@ var InitialAmountEditComponent = (function () {
                     // Then enable the submit button for update
                     parent.submit[0].disabled = false;
                 }
+                /* Diagnostic */
+                //console.log(`Update : initBeginDateValue = : ${JSON.stringify(parent.initBeginDateValue)} : newBeginDateValue = : ${JSON.stringify(newBeginDateValue)}`);
             }
         });
     };
-    //if (!regexAmountValidate.test(that.txtAmount.val())) {
-    //    that.validationMessage = "Invalid Amount!";
-    //    that.submit[0].disabled = true;
-    //} else {
-    //    that.validationMessage = "";
-    //    that.submit[0].disabled = false;
-    //    newAmountValue = parseFloat(
-    //        that.common.replaceCharacters(that.txtAmount.val(), regexAmountCharReplace)
-    //    );
-    //    // If the value interred by the user is different from the original then it's dirty
-    //    that.amountDirty = !(initAmountValue === newAmountValue);
-    //    // Now set the value so it can update the database
-    //    that.initialAmount.Amount = newAmountValue;
-    //}
     InitialAmountEditComponent.prototype.changeModel = function (ev) {
         // Regex Validation
         var regexAmountValidate = /^\$?\d{1,3}(,?\d{3})*(\.\d{1,2})?$/;
@@ -251,7 +219,7 @@ InitialAmountEditComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: "id-initialAmounts-edit",
-        templateUrl: "../../../tsScripts/InitialAmount/Edit/Edit.component.html"
+        templateUrl: "Edit.component.html"
     }),
     __metadata("design:paramtypes", [InitialAmount_service_1.InitialAmountService,
         router_2.Router,
@@ -262,6 +230,41 @@ InitialAmountEditComponent = __decorate([
         forms_1.FormBuilder])
 ], InitialAmountEditComponent);
 exports.InitialAmountEditComponent = InitialAmountEditComponent;
+/** --------------------------------------------------------------------
+ *  Begin Date validation and value prep
+ ----------------------------------------------------------------------*/
+//this.txtAmount.autoNumeric("init",
+//{
+//    currencySymbol: "$"
+//}).mouseleave(() => {
+//    parent.processAmount(
+//        regexAmountValidate,
+//        regexAmountCharReplace,
+//        parent.initAmountValue,
+//        parent
+//    );
+//}).blur(() => {
+//    parent.processAmount(
+//        regexAmountValidate,
+//        regexAmountCharReplace,
+//        parent.initAmountValue,
+//        parent
+//    );
+//});
+//if (!regexAmountValidate.test(that.txtAmount.val())) {
+//    that.validationMessage = "Invalid Amount!";
+//    that.submit[0].disabled = true;
+//} else {
+//    that.validationMessage = "";
+//    that.submit[0].disabled = false;
+//    newAmountValue = parseFloat(
+//        that.common.replaceCharacters(that.txtAmount.val(), regexAmountCharReplace)
+//    );
+//    // If the value interred by the user is different from the original then it's dirty
+//    that.amountDirty = !(initAmountValue === newAmountValue);
+//    // Now set the value so it can update the database
+//    that.initialAmount.Amount = newAmountValue;
+//}
 //if (!regexAmountValidate.test(that.txtAmount.val())) {
 //    that.validationMessage = "Invalid Amount!";
 //    that.submit[0].disabled = true;

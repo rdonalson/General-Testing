@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var InitialAmount = (function () {
     function InitialAmount(PkID, UserName, Amount, BeginDate) {
         this.PkID = PkID;

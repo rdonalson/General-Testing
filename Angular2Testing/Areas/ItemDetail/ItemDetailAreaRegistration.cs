@@ -1,10 +1,10 @@
 ﻿using System.Web.Mvc;
 
-namespace QuickStart3.Areas.ItemDetail
+namespace Angular2Testing.Areas.ItemDetail
 {
     public class ItemDetailAreaRegistration : AreaRegistration
     {
-        public override string AreaName => "ItemDetail";
+        public override string AreaName => $"ItemDetail";
 
         public override void RegisterArea(AreaRegistrationContext context)
         {

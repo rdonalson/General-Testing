@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace QuickStart3
+namespace Angular2Testing
 {
     public class FilterConfig
     {

@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var AlertComponent = (function () {
     function AlertComponent() {
@@ -21,8 +22,8 @@ __decorate([
 AlertComponent = __decorate([
     core_1.Component({
         selector: 'common-alert',
-        template: "\n    <div class=\"panel panel-danger\" *ngIf=\"errorMessage\">\n        <alert type=\"info\" >{{ errorMessage }}</alert>\n    </div>\n    "
+        template: "<div class=\"panel panel-danger\" *ngIf=\"errorMessage\">\n    <alert type=\"danger\" >{{ errorMessage }}</alert>\n</div>"
     })
 ], AlertComponent);
 exports.AlertComponent = AlertComponent;
-//# sourceMappingURL=Alert.component.js.map
+//# sourceMappingURL=Alert.Component.js.map

@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 /// ===========================================================================================
 /// Initial Amount List Component
 /// ===========================================================================================
@@ -51,6 +52,18 @@ var InitialAmountComponent = (function () {
         // Show the initialAmounts list    
         this.showInitialAmount = true;
     };
+    // ** Called when the Delte button is pressed **
+    InitialAmountComponent.prototype.deleteProduct = function (initialAmount) {
+        var _this = this;
+        /* Diagnostic */
+        //console.log("initialAmount: " + JSON.stringify(initialAmount));
+        // Call the service to delete the Product
+        this.initialAmountService.deleteInitialAmount(initialAmount.PkID)
+            .subscribe(function () {
+            // Refresh list - Get InitialAmounts
+            _this.getInitialAmounts();
+        }, function (error) { return _this.errorMessage = error; });
+    };
     // ** Called when the Create button is pressed **
     InitialAmountComponent.prototype.editInitialAmount = function (initialAmount) {
         // To Create Initial Amount
@@ -64,8 +77,7 @@ var InitialAmountComponent = (function () {
         // To Create Initial Amount
         this.router.navigate(["Create"]);
     };
-    InitialAmountComponent.prototype.ngOnDestroy = function () {
-    };
+    InitialAmountComponent.prototype.ngOnDestroy = function () { };
     return InitialAmountComponent;
 }());
 InitialAmountComponent.pass = true;
@@ -74,6 +86,7 @@ InitialAmountComponent = __decorate([
         moduleId: module.id,
         selector: "id-initialAmounts",
         templateUrl: "../../../tsScripts/InitialAmount/Index/Index.component.html"
+        //templateUrl: "Index.component.html"
     }),
     __metadata("design:paramtypes", [InitialAmount_service_1.InitialAmountService,
         router_1.Router,

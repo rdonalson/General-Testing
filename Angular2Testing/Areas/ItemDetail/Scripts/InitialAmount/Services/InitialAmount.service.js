@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 /// ===========================================================================================
 /// Initial Amount Service
 /// ===========================================================================================
@@ -26,10 +27,12 @@ var InitialAmountService = (function () {
     // Pass the Http object to the class through the constructor
     function InitialAmountService(http) {
         this.http = http;
+        // This is the URL to the OData end point
+        // When called from Area; Area name will be appended to beginning
+        this.initialAmountUrl = "../odata/OdataInitialAmounts";
     }
     // ** Get all InitialAmounts **
     InitialAmountService.prototype.getInitialAmounts = function () {
-        this.initialAmountUrl = "../odata/OdataInitialAmounts";
         return this.http.get(this.initialAmountUrl)
             .map(function (response) { return response.json().value; })
             .do(function (data) { return JSON.stringify(data); })
@@ -37,21 +40,38 @@ var InitialAmountService = (function () {
     };
     // ** Get all InitialAmounts **
     InitialAmountService.prototype.getInitialAmount = function (id) {
-        this.initialAmountUrl = '../odata/OdataInitialAmounts(' + id + ')';
-        return this.http.get(this.initialAmountUrl)
+        return this.http.get(this.initialAmountUrl + "(" + id + ")")
             .map(function (response) { return response.json(); })
-            .do(function (data) { return console.log("All: " + JSON.stringify(data)); })
+            .do(function (data) { return JSON.stringify(data); })
             .catch(this.handleError);
     };
-    // ** Update a Product **
-    InitialAmountService.prototype.updateInitialAmount = function (paramInitialAmount) {
-        // This is a Put so we have to pass Headers
-        var headers = new http_1.Headers({ 'Content-Type': 'application/json' });
+    // ** Delete an InitialAmount **
+    InitialAmountService.prototype.deleteInitialAmount = function (id) {
+        // A Delete does not return anything
+        return this.http.delete(this.initialAmountUrl + "(" + id + ")")
+            .catch(this.handleError);
+    };
+    // ** Create an InitialAmount **
+    InitialAmountService.prototype.createInitialAmount = function (paramInitialAmount) {
+        // This is a Post so we have to pass Headers
+        var headers = new http_1.Headers({ 'Content-Type': "application/json" });
         var options = new http_1.RequestOptions({ headers: headers });
         /* Diagnostic */
-        console.log("paramInitialAmount: " + JSON.stringify(paramInitialAmount));
+        //console.log(`paramInitialAmount: ${JSON.stringify(paramInitialAmount)}`);
+        // Make the Angular 2 Post
+        return this.http.post(this.initialAmountUrl, JSON.stringify(paramInitialAmount), options)
+            .map(function (response) { return response.json(); })
+            .catch(this.handleError);
+    };
+    // ** Update the InitialAmount **
+    InitialAmountService.prototype.updateInitialAmount = function (paramInitialAmount) {
+        // This is a Put so we have to pass Headers
+        var headers = new http_1.Headers({ 'Content-Type': "application/json" });
+        var options = new http_1.RequestOptions({ headers: headers });
+        /* Diagnostic */
+        //console.log(`paramInitialAmount: ${JSON.stringify(paramInitialAmount)}`);
         // Make the Angular 2 Put
-        return this.http.put(this.initialAmountUrl = '../odata/OdataInitialAmounts(' + paramInitialAmount.PkID + ')', JSON.stringify(paramInitialAmount), options)
+        return this.http.put(this.initialAmountUrl + "(" + paramInitialAmount.PkID + ")", JSON.stringify(paramInitialAmount), options)
             .catch(this.handleError);
     };
     // ** Called when there are any errors **

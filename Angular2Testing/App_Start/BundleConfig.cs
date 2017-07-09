@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
-namespace QuickStart3
+namespace Angular2Testing
 {
     public class BundleConfig
     {

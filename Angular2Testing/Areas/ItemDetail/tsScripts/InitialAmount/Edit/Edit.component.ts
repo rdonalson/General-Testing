@@ -26,7 +26,7 @@ declare var $: JQueryStatic;
 @Component({
     moduleId: module.id,
     selector: "id-initialAmounts-edit",
-    templateUrl: "../../../tsScripts/InitialAmount/Edit/Edit.component.html"
+    templateUrl: "Edit.component.html"
 })
 export class InitialAmountEditComponent implements OnInit, OnDestroy {
     // General
@@ -93,27 +93,6 @@ export class InitialAmountEditComponent implements OnInit, OnDestroy {
         this.submit = $("#Submit");
         //important point: You have to create a reference to this outer scope
         var parent = this;
-        /** --------------------------------------------------------------------
-         *  Begin Date validation and value prep
-         ----------------------------------------------------------------------*/
-        //this.txtAmount.autoNumeric("init",
-        //{
-        //    currencySymbol: "$"
-        //}).mouseleave(() => {
-        //    parent.processAmount(
-        //        regexAmountValidate,
-        //        regexAmountCharReplace,
-        //        parent.initAmountValue,
-        //        parent
-        //    );
-        //}).blur(() => {
-        //    parent.processAmount(
-        //        regexAmountValidate,
-        //        regexAmountCharReplace,
-        //        parent.initAmountValue,
-        //        parent
-        //    );
-        //});
 
         /** --------------------------------------------------------------------
          *  Begin Date validation and value prep
@@ -141,20 +120,6 @@ export class InitialAmountEditComponent implements OnInit, OnDestroy {
             }
         });
     }
-    //if (!regexAmountValidate.test(that.txtAmount.val())) {
-    //    that.validationMessage = "Invalid Amount!";
-    //    that.submit[0].disabled = true;
-    //} else {
-    //    that.validationMessage = "";
-    //    that.submit[0].disabled = false;
-    //    newAmountValue = parseFloat(
-    //        that.common.replaceCharacters(that.txtAmount.val(), regexAmountCharReplace)
-    //    );
-    //    // If the value interred by the user is different from the original then it's dirty
-    //    that.amountDirty = !(initAmountValue === newAmountValue);
-    //    // Now set the value so it can update the database
-    //    that.initialAmount.Amount = newAmountValue;
-    //}
 
     private changeModel(ev) {
         // Regex Validation
@@ -298,7 +263,41 @@ export class InitialAmountEditComponent implements OnInit, OnDestroy {
 
 }
 
-
+/** --------------------------------------------------------------------
+ *  Begin Date validation and value prep
+ ----------------------------------------------------------------------*/
+//this.txtAmount.autoNumeric("init",
+//{
+//    currencySymbol: "$"
+//}).mouseleave(() => {
+//    parent.processAmount(
+//        regexAmountValidate,
+//        regexAmountCharReplace,
+//        parent.initAmountValue,
+//        parent
+//    );
+//}).blur(() => {
+//    parent.processAmount(
+//        regexAmountValidate,
+//        regexAmountCharReplace,
+//        parent.initAmountValue,
+//        parent
+//    );
+//});
+//if (!regexAmountValidate.test(that.txtAmount.val())) {
+//    that.validationMessage = "Invalid Amount!";
+//    that.submit[0].disabled = true;
+//} else {
+//    that.validationMessage = "";
+//    that.submit[0].disabled = false;
+//    newAmountValue = parseFloat(
+//        that.common.replaceCharacters(that.txtAmount.val(), regexAmountCharReplace)
+//    );
+//    // If the value interred by the user is different from the original then it's dirty
+//    that.amountDirty = !(initAmountValue === newAmountValue);
+//    // Now set the value so it can update the database
+//    that.initialAmount.Amount = newAmountValue;
+//}
 //if (!regexAmountValidate.test(that.txtAmount.val())) {
 //    that.validationMessage = "Invalid Amount!";
 //    that.submit[0].disabled = true;

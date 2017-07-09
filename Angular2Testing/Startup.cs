@@ -1,8 +1,9 @@
-﻿using Microsoft.Owin;
+﻿using Angular2Testing;
+using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(QuickStart3.Startup))]
-namespace QuickStart3
+[assembly: OwinStartup(typeof(Startup))]
+namespace Angular2Testing
 {
     public partial class Startup
     {

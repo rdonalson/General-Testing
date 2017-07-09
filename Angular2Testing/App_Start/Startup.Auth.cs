@@ -1,13 +1,12 @@
 ﻿using System;
+using Angular2Testing.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
-using Microsoft.Owin.Security.Google;
 using Owin;
-using QuickStart3.Models;
 
-namespace QuickStart3
+namespace Angular2Testing
 {
     public partial class Startup
     {

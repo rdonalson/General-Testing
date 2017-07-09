@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace QuickStart3.Models
+namespace Angular2Testing.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

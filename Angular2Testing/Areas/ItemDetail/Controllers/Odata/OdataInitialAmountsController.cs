@@ -3,9 +3,9 @@ using System.Linq;
 using System.Net;
 using System.Web.Http;
 using System.Web.Http.OData;
-using QuickStart3.Data;
+using Angular2Testing.Data;
 
-namespace QuickStart3.Areas.ItemDetail.Controllers.Odata
+namespace Angular2Testing.Areas.ItemDetail.Controllers.Odata
 {
     /// ===========================================================================================
     /// <summary>
@@ -15,8 +15,12 @@ namespace QuickStart3.Areas.ItemDetail.Controllers.Odata
     [Authorize]
     public class OdataInitialAmountsController : ODataController
     {
-        private readonly Entity _db = new Entity();
+        private readonly Entity _db;
 
+        public OdataInitialAmountsController()
+        {
+            _db = new Entity();
+        }
         /// -----------------------------------------------------------------------------------------------
         /// <summary>
         ///     GET: odata/OdataInitialAmounts
@@ -146,11 +150,13 @@ namespace QuickStart3.Areas.ItemDetail.Controllers.Odata
 }
 
 /*
-The WebApiConfig class may require additional changes to add a route for this controller. Merge these statements into the Register method of the WebApiConfig class as applicable. Note that OData URLs are case sensitive.
+The WebApiConfig class may require additional changes to add a route for this controller. 
+Merge these statements into the Register method of the WebApiConfig class as applicable. 
+Note that OData URLs are case sensitive.
 
 using System.Web.Http.OData.Builder;
 using System.Web.Http.OData.Extensions;
-using QuickStart3.Data;
+using Angular2Testing.Data;
 ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
 builder.EntitySet<InitialAmount>("OdataInitialAmounts");
 config.Routes.MapODataServiceRoute("odata", "odata", builder.GetEdmModel());

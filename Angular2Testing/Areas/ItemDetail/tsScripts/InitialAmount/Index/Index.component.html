@@ -24,7 +24,9 @@
                         <button class="btn btn-primary btn-xs glyphicon glyphicon-edit"
                                 (click)="editInitialAmount(initialAmount)"></button>
                         &nbsp;
-                        <button class="btn btn-danger btn-xs glyphicon glyphicon-trash"></button>
+                      <button class="btn btn-danger btn-xs glyphicon glyphicon-trash"
+                              (click)="deleteProduct(initialAmount)">
+                      </button>
                     </div>
                 </td>
                 <td>{{ initialAmount.Amount | currency:'USD':true }}</td>

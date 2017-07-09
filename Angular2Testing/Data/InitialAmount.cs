@@ -1,11 +1,9 @@
-namespace QuickStart3.Data
-{
-    using System;
-    using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.Data.Entity.Spatial;
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
+namespace Angular2Testing.Data
+{
     [Table("ItemDetail.InitialAmount")]
     public partial class InitialAmount
     {
